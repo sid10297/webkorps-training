@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  outline: none;
+  border: 0.2rem solid #687575;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  width: 60%;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border: 0.2rem solid #ffffff;
+  border-radius: 0.4rem;
+}
+
+button {
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: #121212;
+}
+
+button:hover {
+  background-color: #687575;
+  color: #f1f1f1;
+}
+
+.card {
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 0.1rem;
+  border: 2px solid #f1f1f1;
+}
+
+.form {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin: -10px auto;
+  width: 100%;
+}
+
+.input {
+  margin-left: 1rem;
+}
